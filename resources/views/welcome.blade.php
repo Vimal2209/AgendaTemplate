@@ -40,13 +40,13 @@
                     </div>
                     <div class="col">
                         <div class="form-group">
-                            <label for="image"> Link </label>
+                            <label for="image"> URL Link </label>
                             <input type="text" class = "form-control form-control-sm" name="link" />
                         </div> 
                     </div>
                 </div>         
                 <div class="form-group">
-                    <label for="image"> Choose Image </label>
+                    <label for="image"> Choose Image to replace</label>
                     <input type="file" class = "form-control form-control-sm" name="image" />
                 </div>        
                 <div class="form-group">
