@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdx:document xmlns:pdx="http://www.phpdocx.com/main" >
+    <pdx:content>
+        <pdx:wordFragments>
+            <pdx:wordFragment pdx:wordFragmentName="imgFragment" pdx:target="defaultFooter">
+                <pdx:content>
+                     <pdx:addImage pdx:dpi="300">
+                        <pdx:data pdx:dataId="" pdx:dataType="text">/var/www/phpdocx_lib/examples/XmlApi/files/img/image.png</pdx:data>
+                    </pdx:addImage>
+                </pdx:content>
+            </pdx:wordFragment>
+            <pdx:wordFragment pdx:wordFragmentName="textFragment" pdx:target="firstFooter">
+                <pdx:content>
+                     <pdx:addText>
+                        <pdx:textRun>
+                            <pdx:data pdx:dataId="" pdx:dataType="text">first page footer.</pdx:data>
+                        </pdx:textRun>
+                    </pdx:addText>
+                </pdx:content>
+            </pdx:wordFragment>
+            <pdx:wordFragment pdx:wordFragmentName="otherTextFragment" pdx:target="evenFooter">
+                <pdx:content>
+                     <pdx:addText>
+                        <pdx:textRun>
+                            <pdx:data pdx:dataId="" pdx:dataType="text">even page footer.</pdx:data>
+                        </pdx:textRun>
+                    </pdx:addText>
+                </pdx:content>
+            </pdx:wordFragment>
+        </pdx:wordFragments>
+        <pdx:addFooter>
+            <pdx:default pdx:wordFragmentName="imgFragment" />
+            <pdx:first pdx:wordFragmentName="textFragment" />
+            <pdx:even pdx:wordFragmentName="otherTextFragment" />
+        </pdx:addFooter>
+        <pdx:addText>
+            <pdx:textRun>
+                <pdx:data pdx:dataId="" pdx:dataType="text">This is the first page of a document with different footers for the first and even pages.</pdx:data>
+                <pdx:textRunStyle>
+                </pdx:textRunStyle>
+            </pdx:textRun>
+        </pdx:addText>
+        <pdx:addBreak pdx:type="page" pdx:number="1" />
+        <pdx:addText>
+            <pdx:textRun>
+                <pdx:data pdx:dataId="" pdx:dataType="text">This is the second page.</pdx:data>
+                <pdx:textRunStyle>
+                </pdx:textRunStyle>
+            </pdx:textRun>
+        </pdx:addText>
+        <pdx:addBreak pdx:type="page" pdx:number="1" />
+        <pdx:addText>
+            <pdx:textRun>
+                <pdx:data pdx:dataId="" pdx:dataType="text">This is the third page.</pdx:data>
+                <pdx:textRunStyle>
+                </pdx:textRunStyle>
+            </pdx:textRun>
+        </pdx:addText>
+        <pdx:removeWordContent>
+            <pdx:referenceNode pdx:type="*" pdx:target="footer" pdx:referenceTypes="default,first" />
+        </pdx:removeWordContent>
+    </pdx:content>
+</pdx:document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdx:document xmlns:pdx="http://www.phpdocx.com/main" >
+    <pdx:settings>
+        <pdx:docxSettings>
+            <pdx:compat>
+                <pdx:attribute pdx:name="compatibilityMode">15</pdx:attribute>
+                <pdx:attribute pdx:name="overrideTableStyleFontSizeAndJustification">1</pdx:attribute>
+            </pdx:compat>
+        </pdx:docxSettings>
+    </pdx:settings>
+</pdx:document>

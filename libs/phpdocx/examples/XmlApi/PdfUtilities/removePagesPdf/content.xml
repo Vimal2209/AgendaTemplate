@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdx:document xmlns:pdx="http://www.phpdocx.com/main" >
+    <pdx:utilities>
+        <pdx:removePagesPdf pdx:source="/var/www/phpdocx/examples/XmlApi/files/document_test.pdf" pdx:target="/var/www/phpdocx/examples/XmlApi/PdfUtilities/removePagesPdf/output_removePagesPdf.pdf">
+            <pdx:page pdx:value="2" />
+        </pdx:removePagesPdf>
+    </pdx:utilities>
+</pdx:document>

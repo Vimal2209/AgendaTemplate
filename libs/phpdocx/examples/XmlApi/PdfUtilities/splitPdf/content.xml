@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdx:document xmlns:pdx="http://www.phpdocx.com/main" >
+    <pdx:utilities>
+        <pdx:splitPdf pdx:source="/var/www/phpdocx/examples/XmlApi/files/document_test.pdf" pdx:target="/var/www/phpdocx/examples/XmlApi/PdfUtilities/splitPdf/output_splitPdf.pdf">
+            <pdx:page pdx:value="3" />
+        </pdx:splitPdf>
+    </pdx:utilities>
+</pdx:document>
